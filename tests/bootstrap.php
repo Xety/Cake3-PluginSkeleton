@@ -101,4 +101,4 @@ Log::config([
 	]
 ]);
 
-Plugin::load('Your/AwesomePlugin', ['path' => ROOT]);
+Plugin::load('Name/AwesomePlugin', ['path' => ROOT]);
