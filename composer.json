@@ -1,0 +1,38 @@
+{
+	"name": "name/awesome-plugin",
+	"type": "cakephp-plugin",
+	"description": "A skeleton example to create a Cake3 plugin.",
+	"keywords": ["cakephp", "cake3", "plugin", "skeleton", "travis", "scrutinizer", "coveralls"],
+	"homepage": "https://github.com/Name/Awesome-Plugin",
+	"license": "MIT",
+	"support":{
+		"source":"https://github.com/Name/Awesome-Plugin",
+		"issues":"https://github.com/Name/Awesome-Plugin/issues"
+	},
+	"authors": [
+		{
+			"name": "Name",
+			"email": "email@gmail.com",
+			"homepage": "https://github.com/Name"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"cakephp/plugin-installer": "*"
+	},
+	"require-dev": {
+		"cakephp/cakephp": "3.0.*-dev",
+		"phpunit/phpunit": "4.1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Name\\AwesomePlugin\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Name\\AwesomePlugin\\Test\\": "tests"
+		}
+	}
+
+}
