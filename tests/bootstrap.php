@@ -39,7 +39,7 @@ Configure::write('App', [
 	'baseUrl' => false,
 	'dir' => 'src',
 	'webroot' => 'webroot',
-	'www_root' => APP . 'webroot',
+	'wwwRoot' => APP . 'webroot',
 	'fullBaseUrl' => 'http://localhost',
 	'imageBaseUrl' => 'img/',
 	'jsBaseUrl' => 'js/',
