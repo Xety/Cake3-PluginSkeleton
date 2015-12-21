@@ -8,7 +8,6 @@ use Cake\Log\Log;
 require_once 'vendor/autoload.php';
 
 // Path constants to a few helpful things.
-define('DS', DIRECTORY_SEPARATOR);
 define('ROOT', dirname(__DIR__) . DS);
 define('CAKE_CORE_INCLUDE_PATH', ROOT . 'vendor' . DS . 'cakephp' . DS . 'cakephp');
 define('CORE_PATH', ROOT . 'vendor' . DS . 'cakephp' . DS . 'cakephp' . DS);
@@ -25,7 +24,7 @@ $loader = new \Cake\Core\ClassLoader;
 $loader->register();
 $loader->addNamespace('Cake\Test\Fixture', ROOT . '/vendor/cakephp/cakephp/tests/Fixture');
 
-require_once CORE_PATH . 'config/bootstrap.php';
+require_once CORE_PATH . 'config' . DS . 'bootstrap.php';
 
 date_default_timezone_set('UTC');
 mb_internal_encoding('UTF-8');

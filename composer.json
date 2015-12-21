@@ -17,11 +17,12 @@
 		}
 	],
 	"require": {
-		"php": ">=5.4.0"
+		"php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
 	},
 	"require-dev": {
-		"cakephp/cakephp": "3.0.*-dev",
-		"phpunit/phpunit": "4.1.*"
+		"phpunit/phpunit": "4.*",
+        "cakephp/cakephp-codesniffer": "master-dev"
 	},
 	"autoload": {
 		"psr-4": {
