@@ -1,4 +1,10 @@
-/composer.lock
-/vendor
+.git/
+.vscode/
 /coverage
-/phpunit.xml
+/logs
+/plugins
+/tmp
+/vendor
+composer.lock
+phinx.yml
+phpunit.xml
